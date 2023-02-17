@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="servlet-learning" />
-        <module name="request-learning" />
+        <module name="respone-learning" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="request-learning" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
